@@ -12,25 +12,31 @@
 ---
 
 # Project Background
-Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
-
-Insights and recommendations are provided on the following key areas:
+The Philippines has one of the highest emigration rates in the world, and is among the highest in Southeast Asia ([see this repo for more details](https://github.com/Francis-Calingo/Socioeconomic-Analysis-of-The-Philippines)). In Canada, emigrants leaving the Philippines are one of the top sources of immigration ([see this repo for more details](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada?tab=readme-ov-file#time-series-analysis)), and is rapidly growing in certain regions ([see this repo for more details](https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report)). Using data from the Commission of Overseas Filipinos' Registered Emigrants datasets, this Tableau dashboard visualizes emigration from the Philippines in the following areas:
 
 - **Time-Series Progression of Migration**
 - **International Destinations** 
 - **Place of Origin** 
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
+The interactive Tableau dashboard used to report and explore this topic can be found [here](https://public.tableau.com/app/profile/francis.emmanuel.calingo/viz/DataonRegisteredFilipinoEmigrantsSincethe1980s/NumberofRegisteredFilipinoEmigrantsSince1981).
 
-Targed SQL queries regarding various business questions can be found here [link].
-
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
-
-[click me to download](https://github.com/Francis-Calingo/CATEGORICAL-SOCIOECONOMIC-DATA-ANALYSIS-OF-CANADIAN-REGIONS/raw/refs/heads/main/Census_Division_Stats_-_Sheet1.csv)
+To download the Tableau workbook version, [click here](https://github.com/Francis-Calingo/Philippine-Emigrants-Tableau-Dashboard/raw/main/Filipino%20Emigration%20Trends%20(1981–Present).twbx)
 
 <i>Preview of Dashboard:</i>
 
 <img src=https://github.com/Francis-Calingo/Philippine-Emigrants-Tableau-Dashboard/blob/main/Figures/Dashboard.png/>
+
+**Tools and Technologies Used:**
+
+* **Visualization Platform:** Tableau Public
+
+* **Data Wrangling:** Excel (cleaning, reshaping)
+
+* **Interactivity Features:** Hover tooltips, Navigation buttons
+
+
+Data Sources: [Dataset names or links]
+
 
 [<b>Back to Table of Contents</b>](#table-of-contents)
 
@@ -47,6 +53,36 @@ The data structure for the data utilized to build this dashboard is as follows:
 | Emigrant Data-Major Country Destinations (Total)  | **22**  | 11  | 2 | [Download](https://raw.githubusercontent.com/Francis-Calingo/Philippine-Emigrants-Tableau-Dashboard/main/CSV%20Files/Emigrant-1981-2022-MajorCountry%20Total.csv) |
 | Emigrant Data-Provincial Origins | **405**  | 81  | 5  | [Download](https://raw.githubusercontent.com/Francis-Calingo/Philippine-Emigrants-Tableau-Dashboard/main/CSV%20Files/Emigrant-1981-2022-PlaceofOrigin%20Province.csv) |
 | **TOTAL** | **1,451**  | 290  | 23  | N/A  |
+
+**Calculations and Data Viz Development:**
+* **Panel 1:** Number of Registered Filipino Emigrants Since 1981
+  * Type: Bar and Line Dual-Axis Plot
+  * Data: Emigrant-1981-2022-MajorCountry
+  * Column: Year
+  * Row (2): SUM(Total), SUM(Total)-Running sum
+
+* **Panel 2:** Registered Filipino Emigrants by Destination Country, 1981-2022
+  * Type: Vertical Bar Chart
+  * Data: Emigrant-1981-2022-MajorCountry Total
+  * Column: Country
+  * Row: SUM(Total)
+ 
+* **Panel 3:** Percentage of Registered Filipino Emigrants by Country of Destination, 1981-2022
+  * Type: Choropleth Map
+  * Data: Emigrant-1981-2022-AllCountries
+  * Measure: SUM(% Total Emigrants)
+  * Dimension: Country
+  * Column: Longitude(generated)
+  * Row: Latitude(generated)
+ 
+* **Panel 4:** Total Registered Filipino Emigrants by Origin, 1988-2023 (per 100,000, 2020 PH Census)
+  * Type: Choropleth Map
+  * Data: Emigrant-1981-2022-PlaceofOrigin Province
+  * Measure: SUM(Emigrants per Capita)
+  * Dimensions: Country, Province
+  * Column: Longitude(generated)
+  * Row: Latitude(generated)
+
 
 [Entity Relationship Diagram here]
 
