@@ -16,9 +16,9 @@ Backround about the company, including the industry, active years, business mode
 
 Insights and recommendations are provided on the following key areas:
 
-- **Time-Series Progression of Migration** 
-- **Place of Origin** 
+- **Time-Series Progression of Migration**
 - **International Destinations** 
+- **Place of Origin** 
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
@@ -28,26 +28,29 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 
 [click me to download](https://github.com/Francis-Calingo/CATEGORICAL-SOCIOECONOMIC-DATA-ANALYSIS-OF-CANADIAN-REGIONS/raw/refs/heads/main/Census_Division_Stats_-_Sheet1.csv)
 
+<i>Preview of Dashboard:</i>
+
+<img src=https://github.com/Francis-Calingo/Philippine-Emigrants-Tableau-Dashboard/blob/main/Figures/Dashboard.png/>
+
 [<b>Back to Table of Contents</b>](#table-of-contents)
 
 ---
 
 # Data Structure and Initial Checks
 
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
+The data structure for the data utilized to build this dashboard is as follows:
+
+| Data Content  | Number of Entries (Records x Field) | Number of Records  | Number of Fields | Download File Link |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Emigrant Data-All Country Destinations | **465**  | 155  | 3  | [Download](https://raw.githubusercontent.com/Francis-Calingo/Philippine-Emigrants-Tableau-Dashboard/main/CSV%20Files/Emigrant-1981-2022-AllCountries.csv)  |
+| Emigrant Data-Major Country Destinations  | **559**  | 43   | 13  | [Download](https://raw.githubusercontent.com/Francis-Calingo/Philippine-Emigrants-Tableau-Dashboard/main/CSV%20Files/Emigrant-1981-2022-MajorCountry.csv) |
+| Emigrant Data-Major Country Destinations (Total)  | **22**  | 11  | 2 | [Download](https://raw.githubusercontent.com/Francis-Calingo/Philippine-Emigrants-Tableau-Dashboard/main/CSV%20Files/Emigrant-1981-2022-MajorCountry%20Total.csv) |
+| Emigrant Data-Provincial Origins | **405**  | 81  | 5  | [Download](https://raw.githubusercontent.com/Francis-Calingo/Philippine-Emigrants-Tableau-Dashboard/main/CSV%20Files/Emigrant-1981-2022-PlaceofOrigin%20Province.csv) |
+| **TOTAL** | **1,451**  | 290  | 23  | N/A  |
 
 [Entity Relationship Diagram here]
 
 [<b>Back to Table of Contents</b>](#table-of-contents)
-
-Emigrant-1981-2022-AllCountries 155 x 3
-Emigrant-1981-2022-MajorCountry 43 x 13
-Emigrant-1981-2022-MajorCountry Total 11 x 2
-Emigrant-1981-2022-PlaceofOrigin Province 81 x 5
 
 ---
 
@@ -62,7 +65,7 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 
 
 # Insights Deep Dive
-### Category 1:
+### Time-Series Progression of Migration:
 
 * **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
@@ -72,23 +75,11 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
   
 * **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
-[Visualization specific to category 1]
+<img src=https://github.com/Francis-Calingo/Philippine-Emigrants-Tableau-Dashboard/blob/main/Figures/Panel%201.JPG>
 
 
-### Category 2:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 2]
-
-
-### Category 3:
+### International Destinations:
 
 * **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
@@ -98,10 +89,12 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
   
 * **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
-[Visualization specific to category 3]
+<img src=https://github.com/Francis-Calingo/Philippine-Emigrants-Tableau-Dashboard/blob/main/Figures/Panel%202.JPG>
+
+<img src=https://github.com/Francis-Calingo/Philippine-Emigrants-Tableau-Dashboard/blob/main/Figures/Panel%203.JPG>
 
 
-### Category 4:
+### Place of Origin:
 
 * **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
@@ -111,7 +104,7 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
   
 * **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
-[Visualization specific to category 4]
+<img src=https://github.com/Francis-Calingo/Philippine-Emigrants-Tableau-Dashboard/blob/main/Figures/Panel%204.JPG>
 
 [<b>Back to Table of Contents</b>](#table-of-contents)
 
