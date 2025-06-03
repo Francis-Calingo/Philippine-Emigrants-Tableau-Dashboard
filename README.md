@@ -91,50 +91,46 @@ The data structure for the data utilized to build this dashboard is as follows:
 
 ### Overview of Findings
 
-The main takeaways from this dashboard were: (1) Other than the early 2020s (COVID-19 pandemic) and select years (e.g., late 1990s during economic hardships in Asia), trends show that the number of people emigrating from the Philippines annually have been consistently on the rise; (2) The vast majority of emigrants choose North America as their destination; (3) On a per-capita basis, provinces in the Ilocos Region produced the most emigrants since the 1980s.
+The main takeaways from this dashboard were: (1) Other than the early 2020s (COVID-19 pandemic) and select years (e.g., late 1990s during economic hardships in Asia), trends show that the number of people emigrating from the Philippines annually have been consistently on the rise; (2) The vast majority of emigrants choose North America as their destination; (3) On a per-capita basis, provinces in the Ilocos Region (i.e., northwest corner of the northernmost island group, Luzon) produced the most emigrants since the 1980s.
+
+[<b>Back to Table of Contents</b>](#table-of-contents)
 
 ---
 
 # Insights Deep Dive
 ### Time-Series Progression of Migration:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **In general, the number of registered emigrants leaving the Philippines annually since the 1980s has been on the rise.** The continuation of policies such as the Labour Export Policy, as well as the increased reliance on foreign-trained professionals in certain countries such as Canada's demand for nurses, has no doubt contributed to these increases.
+   
+* **There were some instances of a year-to-year drop in emigrants leaving the Philippines, such as in the early 2020s (COVID-19 pandemic) and late 1990s (1990s Asian financial crisis).** Whether it is due to destination countries enacting stricter immigration policies in order to deal with an ongoing crisis, domestic policies aimed at preventing people from leaving, or a lower capacity or desire for people to emigrate, emigration has proven to be tied to current events and reactions to them.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Over 1 million people emigrated from the Philippines from 1980-1999 (19 years) and another 1 million left from 1999-2013 (14 years).** With people emigrating at a faster rate over time, the Filipino community may soon overtake other diaspora communities in size. 
 
 <img src=https://github.com/Francis-Calingo/Philippine-Emigrants-Tableau-Dashboard/blob/main/Figures/Panel%201.JPG>
 
 
 
 ### International Destinations:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **The vast majority of emigrants choose to immigrate to North America.** Over 1.5 million people since 1981 have chosen to settle in the United States, while over half a million have chosen to settle in Canada.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Japan and Australia are the primary recipients of Filipino emigrants in the Aisa-Pacific region.** Nearly 160,000 Filipinos have emigrated to Japan since 1981, while over 150,000 have chosen to settle in Australia.
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **While relatively small compared to the emigrant data for the aforementioned countries, 42,587 Filipinos have emigrated to Italy since 1981, the most out of any European country.** This is more than double the next European country, United Kingdom, where 20,582 Filipinos have immigrated to since 1981.
 
 <img src=https://github.com/Francis-Calingo/Philippine-Emigrants-Tableau-Dashboard/blob/main/Figures/Panel%202.JPG>
 
 <img src=https://github.com/Francis-Calingo/Philippine-Emigrants-Tableau-Dashboard/blob/main/Figures/Panel%203.JPG>
 
 
-### Place of Origin:
+### Place of Origin (Per-Capita):
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **The Ilocos Region leads the Philippines in terms of the number of Filipinos who emigrated from the Philippines since 1988 (per 100,000-population based on 2020 Philippine Census).** Ilocos North leads the country with 11,032 emigrants per 100,000.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Other provinces or regions in Luzon have high per-capita emigration rates.** In fact, Zambales (6,929 emigrants per 100,000) and the National Capital Region (5,183 emigrants per 100,000) have higher emigration rates that 2 of the 4 provinces from Ilocos Region (Pangasian-3,465 per 100,000, La Union-4,025 per 100,000), while Zambales had a higher rate than Ilocos Sur (5,260 per 100,000).
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **From a per-capita measurement, very few emigrants can be found from the the other two major island groups-Visayas and Mindanao.** Only Cebu has a rate exceeding 2,000 emigrants per 100,000 (2,045), while the rest of the provinces from those two island groups are below 2,000 (Sulu had the lowest rate with 5 per 100,000, whil nearby Tawi-Tawi had a near-identical 9).
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
 <img src=https://github.com/Francis-Calingo/Philippine-Emigrants-Tableau-Dashboard/blob/main/Figures/Panel%204.JPG>
 
 [<b>Back to Table of Contents</b>](#table-of-contents)
@@ -163,16 +159,24 @@ Based on the insights and findings above, we would recommend the [stakeholder te
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
+* Something about geography (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
   
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
+* It is important to note that this data is based on the Commission of Overseas Filipinos' Registered Emigrants database (who defines emigrants as those who leave the Philippines to settle permanently in a destination country). The dashboard therefore does not account for Filipinos who leave the country through other means-e.g., as overseas foreign workers, as international students, as those who later gain permanent residency status in another country after several years, those who permanently settle in another country after temporarily settling in one or more intermediate countries.
   
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+* Province of origin note
+
+* Tableau geography discrepancy note
 
 [<b>Back to Table of Contents</b>](#table-of-contents)
 
 ---
 
 # Credits and Acknowledgements
+
+"Region Support for Philippines Maps". Salesforce, https://help.salesforce.com/s/articleView?language=en_US&id=001453778&type=1.
+
+Tableau Desktop and Web Authoring Help. https://help.tableau.com/current/public/desktop/en-us/default.htm.
+
+"The Best of Schumann." YouTube, created by Mark Keith, https://www.youtube.com/watch?v=Iqj0ZyoeEXw.
 
 [<b>Back to Table of Contents</b>](#table-of-contents)
