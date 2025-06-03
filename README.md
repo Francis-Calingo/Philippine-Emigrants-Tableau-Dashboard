@@ -83,9 +83,6 @@ The data structure for the data utilized to build this dashboard is as follows:
   * Column: Longitude(generated)
   * Row: Latitude(generated)
 
-
-[Entity Relationship Diagram here]
-
 [<b>Back to Table of Contents</b>](#table-of-contents)
 
 ---
@@ -94,11 +91,9 @@ The data structure for the data utilized to build this dashboard is as follows:
 
 ### Overview of Findings
 
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+The main takeaways from this dashboard were: (1) Other than the early 2020s (COVID-19 pandemic) and select years (e.g., late 1990s during economic hardships in Asia), trends show that the number of people emigrating from the Philippines annually have been consistently on the rise; (2) The vast majority of emigrants choose North America as their destination; (3) On a per-capita basis, provinces in the Ilocos Region produced the most emigrants since the 1980s.
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
-
-
+---
 
 # Insights Deep Dive
 ### Time-Series Progression of Migration:
