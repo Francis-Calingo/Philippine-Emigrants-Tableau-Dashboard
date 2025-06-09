@@ -35,7 +35,7 @@ To download the Tableau workbook version, [click here](https://github.com/Franci
 * **Interactivity Features:** Hover tooltips, Navigation buttons
 
 
-Data Sources: [Dataset names or links]
+Data Sources: [CFO Statistics](http://www.cfo.gov.ph/Statistics)
 
 
 [<b>Back to Table of Contents</b>](#table-of-contents)
@@ -45,8 +45,6 @@ Data Sources: [Dataset names or links]
 # Data Structure and Initial Checks
 
 The data structure for the data utilized to build this dashboard is as follows:
-
-
 
 | Data Content  | Number of Entries (Records x Field) | Number of Records  | Number of Fields | Download File Link |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -149,7 +147,7 @@ Based on the insights and findings above, we would recommend the [stakeholder te
   
 * Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* On a per-capita basis, the provinces in the northwestern part of Luzon, which are mostly connected by the Manila North Road highway, had the highest number of registered emigrants by province of origin, while the province of Cebu (which is home to Mactan–Cebu International Airport, the second-most busiest international airport in the country) had the highest amongst all provinces in the Visayas and Mindanao island groups. **Recommendation or general guidance based on this observation.**
   
 * Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
   
@@ -160,15 +158,13 @@ Based on the insights and findings above, we would recommend the [stakeholder te
 # Assumptions and Caveats:
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
-
-* Something about geography (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
   
 * It is important to note that this data is based on the Commission of Overseas Filipinos' Registered Emigrants database (who defines emigrants as those who leave the Philippines to settle permanently in a destination country). The dashboard therefore does not account for Filipinos who leave the country through other means-e.g., as overseas foreign workers, as international students, as those who later gain permanent residency status in another country after several years, those who permanently settle in another country after temporarily settling in one or more intermediate countries.
   
-* Province of origin note
+* Tableau recognizes 84 first-level administrative divisions of the Philippines as "states/provinces" (81 provinces, National Capital Region, City of Isabela, and Cotabato City). As a result, in order to render the choropleth map usable, adjustments had to be made from the [original xlxs file from CFO](https://cms-cdn.e.gov.ph/CFO/pdf/8.%20Emigrant-1988-2022-PlaceOfOrigin.xlsx), all while converting the relevant data into a csv file. In particular, 
 
-* Tableau geography discrepancy note
-
+* In a similar vein, the names of the countries Tableau recognizes and the names of the countries from CFO's datasets do not align in a few cases (e.g.,_____), therefore, adjustments had to be made to the names in order to match, while converting the relevant data into a csv file.
+  
 [<b>Back to Table of Contents</b>](#table-of-contents)
 
 ---
