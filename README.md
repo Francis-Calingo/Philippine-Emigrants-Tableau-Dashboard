@@ -145,7 +145,7 @@ Based on the insights and findings above, we would recommend the [stakeholder te
   
 * Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* The vast majority of registered emigrants (over 2 million) have settled in North America since 1981. **Recommendation or general guidance based on this observation.**
   
 * On a per-capita basis, the provinces in the northwestern part of Luzon, which are mostly connected by the Manila North Road highway, had the highest number of registered emigrants by province of origin, while the province of Cebu (which is home to Mactan–Cebu International Airport, the second-most busiest international airport in the country) had the highest amongst all provinces in the Visayas and Mindanao island groups. **Recommendation or general guidance based on this observation.**
   
