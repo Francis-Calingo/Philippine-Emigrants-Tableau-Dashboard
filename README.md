@@ -141,16 +141,14 @@ The main takeaways from this dashboard were: (1) Other than the early 2020s (COV
 
 Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* With the exception of certain periods (e.g., COVID-19 pandemic, 1997 Asian Financial Crisis), the number of people leaving the Philippines annually have been steadily rising, with more people leaving the country between 1999-2013 than between 1980-1999. **Recommendation or general guidance based on this observation.**
   
 * The vast majority of registered emigrants (over 2 million) have settled in North America since 1981. **Recommendation or general guidance based on this observation.**
+
+* Outside of North America, Australia and Japan were the top destinations for Filipino emigrants in the Asia-Pacific region, while Italy was the top European country. **Recommendation or general guidance based on this observation.**
   
 * On a per-capita basis, the provinces in the northwestern part of Luzon, which are mostly connected by the Manila North Road highway, had the highest number of registered emigrants by province of origin, while the province of Cebu (which is home to Mactan–Cebu International Airport, the second-most busiest international airport in the country) had the highest amongst all provinces in the Visayas and Mindanao island groups. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
+    
 [<b>Back to Table of Contents</b>](#table-of-contents)
 
 ---
@@ -161,9 +159,9 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
   
 * It is important to note that this data is based on the Commission of Overseas Filipinos' Registered Emigrants database (who defines emigrants as those who leave the Philippines to settle permanently in a destination country). The dashboard therefore does not account for Filipinos who leave the country through other means-e.g., as overseas foreign workers, as international students, as those who later gain permanent residency status in another country after several years, those who permanently settle in another country after temporarily settling in one or more intermediate countries.
   
-* Tableau recognizes 84 first-level administrative divisions of the Philippines as "states/provinces" (81 provinces, National Capital Region, City of Isabela, and Cotabato City). As a result, in order to render the choropleth map usable, adjustments had to be made from the [original xlxs file from CFO](https://cms-cdn.e.gov.ph/CFO/pdf/8.%20Emigrant-1988-2022-PlaceOfOrigin.xlsx), all while converting the relevant data into a csv file. In particular, 
+* Tableau recognizes 84 first-level administrative divisions of the Philippines as "states/provinces" (81 provinces, National Capital Region, City of Isabela, and Cotabato City). As a result, in order to render the choropleth map usable, adjustments had to be made to the names from the [original xlxs file from CFO](https://cms-cdn.e.gov.ph/CFO/pdf/8.%20Emigrant-1988-2022-PlaceOfOrigin.xlsx), all while converting the relevant data into a csv file. In particular, Compostela Valley (which appears on CFO's database) was renamed to "Davao de Oro" in 2019 (which appears on Tableau's list of 84 recognized first-level administrative divisions.
 
-* In a similar vein, the names of the countries Tableau recognizes and the names of the countries from CFO's datasets do not align in a few cases (e.g.,_____), therefore, adjustments had to be made to the names in order to match, while converting the relevant data into a csv file.
+* In a similar vein, the names of the countries Tableau recognizes and the names of the countries from CFO's datasets do not align in a few cases (e.g.,Cambodia is referred to as "Democratic Kampuchea" in CFO's database), therefore, adjustments had to be made to the names in order to match, while converting the relevant data from the [original xlxs file from the CFO](https://cms-cdn.e.gov.ph/CFO/pdf/7.%20Emigrant-1981-2022-AllCountries.xlsx) into a csv file.
   
 [<b>Back to Table of Contents</b>](#table-of-contents)
 
